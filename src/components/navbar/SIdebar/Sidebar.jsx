@@ -20,8 +20,8 @@ export const Sidebar = () => {
       transition: {
         delay: 0.5,
         type: "spring",
-        stiffness: 4000,
-        damping: 40,
+        stiffness: 240,
+        damping: 30,
       },
     },
   };
