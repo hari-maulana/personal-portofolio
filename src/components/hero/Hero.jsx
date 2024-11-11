@@ -72,7 +72,8 @@ export const Hero = () => {
         animate="animate"
         initial="initial"
       >
-        Developer | Engineer | Freelancer
+        Fullstack Developer | Frontend Enthusiast | Designer Fullstack Developer
+        | Frontend Enthusiast
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />
