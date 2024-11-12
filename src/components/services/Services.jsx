@@ -30,7 +30,7 @@ export const Services = () => {
       initial="initial"
       //   animate="animate"
       // whileInView="animate"
-      // ref={ref}
+      ref={ref}
       animate={isInView && "animate"}
     >
       <motion.div className="textContainer" variants={variants}>
