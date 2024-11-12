@@ -2,10 +2,13 @@ import "./app.scss";
 import { Hero } from "./components/hero/Hero";
 import { Navbar } from "./components/navbar/Navbar";
 import { Parallax } from "./components/parallax/Parallax";
+import { Portofolio } from "./components/portofolio/Portofolio";
 import { Services } from "./components/services/Services";
+
 const App = () => {
   return (
     <div>
+      {/* <Cursor /> */}
       <section id="Homepage">
         <Navbar />
         <Hero />
@@ -19,10 +22,13 @@ const App = () => {
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <section>Portofolio</section>
-      <section>Portofolio</section>
-      <section>Portofolio</section>
-      <section id="Contact">Contact</section>
+      <Portofolio />
+      <section id="Contact">
+        <h1>Contact</h1>
+      </section>
+      {/* Framer Motion Crash Course */}
+      {/* <Test/>
+    <Test/> */}
     </div>
   );
 };
