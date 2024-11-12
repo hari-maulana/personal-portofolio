@@ -22,7 +22,7 @@ export const Parallax = ({ type }) => {
         background:
           type === "services"
             ? "linear-gradient(to bottom, #111133, #0c0c1d)"
-            : "linear-gradient(to bottom, #0c0c1d, #111133)",
+            : "linear-gradient(to bottom, #111133, #0c0c1d)",
       }}
     >
       <motion.h1 style={{ y: yText }}>
