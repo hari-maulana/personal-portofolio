@@ -29,8 +29,8 @@ export const Services = () => {
       variants={variants}
       initial="initial"
       //   animate="animate"
-      //   whileInView="animate"
-      ref={ref}
+      // whileInView="animate"
+      // ref={ref}
       animate={isInView && "animate"}
     >
       <motion.div className="textContainer" variants={variants}>
