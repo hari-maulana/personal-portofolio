@@ -36,3 +36,9 @@ section {
   height: 200px;
   background-color: lightblue;
 }
+
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
