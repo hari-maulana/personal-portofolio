@@ -50,7 +50,7 @@ export const Hero = () => {
         >
           <motion.h2 variants={textVariants}>HARI MAULANA</motion.h2>
           <motion.h1 variants={textVariants}>
-            Fullstack Developer, Fronted Geek
+            Fullstack Developer, Frontend Geek
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
@@ -65,6 +65,9 @@ export const Hero = () => {
             alt=""
           />
         </motion.div>
+        <div className="imageContainer">
+          <img src="/hero.png" alt="" />
+        </div>
       </div>
       <motion.div
         className="slidingTextContainer"
@@ -75,9 +78,6 @@ export const Hero = () => {
         Fullstack Developer | Frontend Enthusiast | Designer Fullstack Developer
         | Frontend Enthusiast
       </motion.div>
-      <div className="imageContainer">
-        <img src="/hero.png" alt="" />
-      </div>
     </div>
   );
 };

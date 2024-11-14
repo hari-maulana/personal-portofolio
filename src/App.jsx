@@ -9,23 +9,23 @@ import { Services } from "./components/services/Services";
 
 const App = () => {
   return (
-    <div>
+    <div style={{}}>
       <Cursor />
       <section id="Homepage">
         <Navbar />
         <Hero />
       </section>
-      <section id="Services">
+      <section style={{ height: "100vh" }} id="Services">
         <Parallax type="services" />
       </section>
       <section>
         <Services />
       </section>
-      <section id="Portfolio">
+      <section style={{ height: "100vh" }} id="Portfolio">
         <Parallax type="portfolio" />
       </section>
       <Portofolio />
-      <section id="Contact">
+      <section style={{ height: "100vh" }} id="Contact">
         <Contact />
       </section>
     </div>
