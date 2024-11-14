@@ -29,6 +29,9 @@ export const Parallax = ({ type }) => {
         {type === "services" ? "What I Do?" : "What I did?"}
       </motion.h1>
       <motion.div
+        style={{
+          backgroundImage: "url(/mountains.png)",
+        }}
         className="mountains"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -45,7 +48,7 @@ export const Parallax = ({ type }) => {
         animate={{ opacity: 1 }}
       ></motion.div>
       <motion.div
-        style={{ x: yBg }}
+        style={{ backgroundImage: "url(/stars.png)", x: yBg }}
         className="stars"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
