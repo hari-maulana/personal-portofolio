@@ -29,31 +29,29 @@ export const Services = () => {
       variants={variants}
       initial="initial"
       //   animate="animate"
-      // whileInView="animate"
+      whileInView="animate"
       ref={ref}
       // animate={isInView && "animate"}
-      animate={"animate"}
     >
       <motion.div className="textContainer" variants={variants}>
-        <p>
+        {/* <p>
           I focus on helping your brand grow
           <br /> and move forward
         </p>
-        <hr />
+        <hr /> */}
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
-          <h1>
+          {/* <img src="/people.webp" alt="" /> */}
+          {/* <h1>
             <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
-          </h1>
+          </h1> */}
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Bussiness.
+            My <motion.b whileHover={{ color: "orange" }}>Expertise</motion.b>
           </h1>
-          <button>WHAT WE DO?</button>
+          {/* <button>WHAT WE DO?</button> */}
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>

@@ -4,7 +4,7 @@
 
   .progress {
     position: sticky;
-    top: 0;
+    top: -40px;
     left: 0;
     padding-top: 50px;
     text-align: center;
@@ -19,7 +19,7 @@
 
     .progressBar {
       height: 10px;
-      background-color: white;
+      background-color: orange;
     }
   }
 
@@ -41,6 +41,7 @@
       gap: 50px;
       padding: 50px;
       border: 1px solid gray;
+      border-radius: 10px;
 
       @include mobile {
         flex-direction: column;
@@ -49,6 +50,10 @@
       .imageContainer {
         flex: 1;
         height: 60%;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: white;
+        border: 1px solid gray;
 
         @include mobile {
           width: 100%;
@@ -59,7 +64,7 @@
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
 
         @include mobile {
           object-fit: contain;
@@ -97,7 +102,9 @@
           }
         }
 
-        button {
+        .button {
+          text-align: center;
+          color: black;
           background-color: orange;
           border: none;
           border-radius: 10px;
