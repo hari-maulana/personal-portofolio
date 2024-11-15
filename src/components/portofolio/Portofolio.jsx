@@ -5,27 +5,31 @@ import { useScroll, useSpring, motion, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React App",
-    img: "https://miro.medium.com/v2/resize:fit:1400/1*JERiGRTbTYAvX9_UCcXOAA.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem distinctio blanditiis sunt eius esse? Debitis ea quod consequuntur pariatur? Voluptatum quibusdam dolorem provident nihil velit consequatur obcaecati dignissimos sunt esse.",
+    title: "Circle App",
+    img: "https://res.cloudinary.com/circlehmhm/image/upload/v1731652761/circle-ss_e6aceh.png",
+    desc: "A Twitter-like social media platform enabling users to: - Share updates, images, and text content - Follow accounts and build connections - Interact through likes, comments, and replies - Experience real-time updates and notifications",
+    url: "https://github.com/hari-maulana/pern-socmed-app",
   },
   {
     id: 2,
     title: "React App",
     img: "https://miro.medium.com/v2/resize:fit:1400/1*JERiGRTbTYAvX9_UCcXOAA.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem distinctio blanditiis sunt eius esse? Debitis ea quod consequuntur pariatur? Voluptatum quibusdam dolorem provident nihil velit consequatur obcaecati dignissimos sunt esse.",
+    url: "https://circlehmhm.github.io/",
   },
   {
     id: 3,
     title: "React App",
     img: "https://miro.medium.com/v2/resize:fit:1400/1*JERiGRTbTYAvX9_UCcXOAA.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem distinctio blanditiis sunt eius esse? Debitis ea quod consequuntur pariatur? Voluptatum quibusdam dolorem provident nihil velit consequatur obcaecati dignissimos sunt esse.",
+    url: "https://circlehmhm.github.io/",
   },
   {
     id: 4,
     title: "React App",
     img: "https://miro.medium.com/v2/resize:fit:1400/1*JERiGRTbTYAvX9_UCcXOAA.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem distinctio blanditiis sunt eius esse? Debitis ea quod consequuntur pariatur? Voluptatum quibusdam dolorem provident nihil velit consequatur obcaecati dignissimos sunt esse.",
+    url: "https://circlehmhm.github.io/",
   },
 ];
 
@@ -48,7 +52,14 @@ const Single = ({ item }) => {
           <motion.div className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <a
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button"
+            >
+              GitHub Repository
+            </a>
           </motion.div>
         </div>
       </div>
@@ -72,7 +83,6 @@ export const Portofolio = () => {
   return (
     <div className="portofolio" ref={ref}>
       <div className="progress">
-        <h1>Featured Works</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
