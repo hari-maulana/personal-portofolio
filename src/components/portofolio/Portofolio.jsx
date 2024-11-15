@@ -1,6 +1,6 @@
 import "./portofolio.scss";
 import { useRef } from "react";
-import { useScroll, useSpring, motion, useTransform } from "framer-motion";
+import { useScroll, useSpring, motion } from "framer-motion";
 
 const items = [
   {
@@ -36,11 +36,11 @@ const items = [
 const Single = ({ item }) => {
   const ref = useRef();
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-  });
+  // const { scrollYProgress } = useScroll({
+  //   target: ref,
+  // });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-200, 200]);
+  // const y = useTransform(scrollYProgress, [0, 1], [-200, 200]);
 
   return (
     <section style={{ height: "100vh" }}>
