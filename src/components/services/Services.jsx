@@ -59,53 +59,31 @@ export const Services = () => {
           className="bx"
           whileHover={{ background: " lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Frontend Dev, React, Next.js</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
-            quia cumque recusandae amet minima aliquam eaque harum commodi,
-            distinctio porro magni fugiat, explicabo unde autem eligendi non
-            similique id.
+            Skilled in developing hybrid mobile apps and cross-platform
+            solutions using the React Native framework.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="bx"
           whileHover={{ background: " lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Backend Dev, Node.js, Express, PostgreSQL</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
-            quia cumque recusandae amet minima aliquam eaque harum commodi,
-            distinctio porro magni fugiat, explicabo unde autem eligendi non
-            similique id.
+            Skilled in developing hybrid mobile apps and cross-platform
+            solutions using the React Native framework.
           </p>
-          <button>Go</button>
         </motion.div>
         <motion.div
           className="bx"
           whileHover={{ background: " lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>React Native Developer, Android & iOS</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
-            quia cumque recusandae amet minima aliquam eaque harum commodi,
-            distinctio porro magni fugiat, explicabo unde autem eligendi non
-            similique id.
+            Skilled in developing hybrid mobile apps and cross-platform
+            solutions using the React Native framework.
           </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="bx"
-          whileHover={{ background: " lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maiores
-            quia cumque recusandae amet minima aliquam eaque harum commodi,
-            distinctio porro magni fugiat, explicabo unde autem eligendi non
-            similique id.
-          </p>
-          <button>Go</button>
         </motion.div>
       </motion.div>
     </motion.div>

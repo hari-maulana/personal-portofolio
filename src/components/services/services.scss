@@ -67,9 +67,10 @@
   .listContainer {
     flex: 2;
     display: flex;
-    max-width: 1366px;
+    max-width: 1080px;
     margin: auto;
     padding-bottom: 100px;
+    gap: 24px;
 
     @include mobile {
       flex-direction: column;
