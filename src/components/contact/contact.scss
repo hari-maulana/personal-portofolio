@@ -30,7 +30,7 @@
     h1 {
       font-size: 100px;
       line-height: 88px;
-      color: #0c0c0c;
+      color: #66fcf1;
 
       @include mobile {
         font-size: 36px;
@@ -38,12 +38,12 @@
     }
 
     h2 {
-      color: #0c0c0c;
+      color: lightgray;
     }
 
     span {
       font-weight: 300;
-      color: #0c0c0c;
+      color: lightgray;
     }
   }
 
@@ -57,7 +57,7 @@
     }
 
     .phoneSvg {
-      stroke: #0c0c0c;
+      stroke: lightgray;
       position: absolute;
       margin: auto;
       z-index: 10;
@@ -67,10 +67,11 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
-      z-index: 11;
+      z-index: 599;
 
       input,
       textarea {
+        z-index: 699;
         padding: 20px;
         background-color: white;
         border: 1px solid gray;
@@ -82,11 +83,11 @@
       }
 
       button {
-        color: white;
+        color: black;
         border-radius: 5px;
         padding: 20px;
         border: none;
-        background-color: #0c0c0c;
+        background-color: #66fcf1;
         cursor: pointer;
         font-weight: 500;
         @include mobile {

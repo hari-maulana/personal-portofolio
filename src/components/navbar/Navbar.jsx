@@ -12,16 +12,28 @@ export const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.4 }}
         >
-          <span style={{ color: "orange" }}>name</span> hari_maulana__.
+          <span style={{ color: "#66fcf1" }}>name</span> hari_maulana__.
         </motion.span>
         <div className="social">
-          <a href="">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instagram.com/harimaulana11"
+          >
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/hari-maulana"
+          >
             <img src="/github.png" alt="" />
           </a>
-          <a href="">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://linkedin.com/in/hari-maulana"
+          >
             <img src="/linkedin.png" alt="" />
           </a>
           <a className="cv" href="">

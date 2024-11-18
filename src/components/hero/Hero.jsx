@@ -53,10 +53,12 @@ export const Hero = () => {
             Fullstack Developer, Frontend Geek
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.a href="#Portfolio" variants={textVariants}>
               See the Latest Work
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            </motion.a>
+            <motion.a href="#Contact" variants={textVariants}>
+              Contact Me
+            </motion.a>
           </motion.div>
           <motion.img
             variants={textVariants}

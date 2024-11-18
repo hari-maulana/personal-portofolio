@@ -37,12 +37,13 @@
 
       h2 {
         font-size: 30px;
-        color: rebeccapurple;
+        color: white;
         letter-spacing: 10px;
       }
 
       h1 {
         font-size: 86px;
+        color: #66fcf1;
         @include mobile {
           font-size: 40px;
         }
@@ -51,7 +52,7 @@
       .buttons {
         z-index: 100;
 
-        button {
+        a {
           cursor: pointer;
           padding: 20px;
           border: 1px solid white;

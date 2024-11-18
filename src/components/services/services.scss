@@ -40,6 +40,9 @@
       h1 {
         font-size: 96px;
         font-weight: 100;
+        b {
+          color: #66fcf1;
+        }
 
         @include mobile {
           font-size: 36px;

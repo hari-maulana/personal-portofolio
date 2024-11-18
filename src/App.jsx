@@ -26,7 +26,7 @@ const App = () => {
       </section>
       <Portofolio />
       <section
-        style={{ height: "100vh", backgroundColor: "orange" }}
+        style={{ height: "100vh", backgroundColor: "black" }}
         id="Contact"
       >
         <Contact />

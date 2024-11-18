@@ -49,7 +49,7 @@ export const Services = () => {
         </div>
         <div className="title">
           <h1>
-            My <motion.b whileHover={{ color: "orange" }}>Expertise</motion.b>
+            My <motion.b whileHover={{ opacity: 0.5 }}>Expertise</motion.b>
           </h1>
           {/* <button>WHAT WE DO?</button> */}
         </div>
