@@ -25,7 +25,10 @@ const App = () => {
         <Parallax type="portfolio" />
       </section>
       <Portofolio />
-      <section style={{ height: "100vh" }} id="Contact">
+      <section
+        style={{ height: "100vh", backgroundColor: "orange" }}
+        id="Contact"
+      >
         <Contact />
       </section>
     </div>
