@@ -61,8 +61,8 @@ export const Services = () => {
         >
           <h2>Frontend Dev, React, Next.js</h2>
           <p>
-            Skilled in developing hybrid mobile apps and cross-platform
-            solutions using the React Native framework.
+            Proficient in building responsive and user-friendly web interfaces,
+            using React and Next.js.
           </p>
         </motion.div>
         <motion.div
@@ -71,8 +71,7 @@ export const Services = () => {
         >
           <h2>Backend Dev, Node.js, Express, PostgreSQL</h2>
           <p>
-            Skilled in developing hybrid mobile apps and cross-platform
-            solutions using the React Native framework.
+            Can also build RESTful APIs using Node.js, Express, and PostgreSQL.
           </p>
         </motion.div>
         <motion.div
