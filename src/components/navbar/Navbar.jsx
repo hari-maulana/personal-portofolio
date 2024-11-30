@@ -36,7 +36,10 @@ export const Navbar = () => {
           >
             <img src="/linkedin.png" alt="" />
           </a>
-          <a className="cv" href="">
+          <a
+            className="cv"
+            href="https://drive.google.com/file/d/1EYeMEtfypiW0TzBokusB6HPP4Za0RtZQ/view?usp=sharing"
+          >
             Download CV
           </a>
         </div>

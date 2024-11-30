@@ -38,11 +38,20 @@
         cursor: pointer;
       }
 
+      .cv:hover {
+        background-color: #66fcf1;
+        color: black;
+      }
+
       img {
         width: 24px;
         height: 24px;
         cursor: pointer;
       }
+    }
+
+    .social img:hover {
+      opacity: 0.5;
     }
   }
 }
